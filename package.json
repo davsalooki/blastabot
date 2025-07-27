@@ -1,0 +1,29 @@
+{
+  "name": "blastabot",
+  "version": "1.0.0",
+  "description": "discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davsalooki/blastabot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davsalooki/blastabot/issues"
+  },
+  "homepage": "https://github.com/davsalooki/blastabot#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^16.3.0",
+    "install": "0.13.0",
+    "npm": "11.5.1",
+    "prettier": "3.6.2"
+  }
+}
