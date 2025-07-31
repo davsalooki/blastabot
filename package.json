@@ -1,6 +1,7 @@
 {
   "name": "blastabot",
   "version": "1.0.0",
+  "type": "module",
   "description": "discord bot",
   "main": "index.js",
   "scripts": {
