@@ -22,3 +22,13 @@ format-fix:
 test:
 	@echo "Running tests..."
 	@echo "no tests yet"
+
+.PHONY: docker-build
+docker-build:
+	@echo "Building Docker image..."
+	@docker build -t blastabot .
+
+.PHONY: docker-run
+docker-run:
+	@echo "Running Docker container..."
+	@docker run -it --env-file .env blastabot
