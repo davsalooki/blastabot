@@ -1,3 +1,8 @@
+.PHONY: run
+run:
+	@echo "Running the bot..."
+	@node index.js
+
 .PHONY: lint
 lint:
 	@echo "Linting..."
